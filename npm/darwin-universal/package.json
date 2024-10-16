@@ -1,0 +1,39 @@
+{
+  "name": "ninja-runtime-darwin-universal",
+  "version": "1.12.1",
+  "description": "The macOS 64-bit binaries for Ninja",
+  "exports": {
+    ".": "./index.js",
+    "./package": "./package.json"
+  },
+  "bin": {
+    "ninja": "bin/ninja"
+  },
+  "files": [
+    "index.js",
+    "bin"
+  ],
+  "assets": [
+    "bin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holepunchto/ninja-runtime.git"
+  },
+  "author": "Holepunch",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/holepunchto/ninja-runtime/issues"
+  },
+  "homepage": "https://github.com/holepunchto/ninja-runtime#readme",
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "arm64",
+    "x64"
+  ],
+  "dependencies": {
+    "require-asset": "^1.0.2"
+  }
+}

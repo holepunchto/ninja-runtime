@@ -1,0 +1,63 @@
+{
+  "name": "ninja-runtime",
+  "version": "1.12.1",
+  "description": "Prebuilt Ninja binaries for macOS, Linux, and Windows",
+  "exports": {
+    ".": "./index.js",
+    "./package": "./package.json",
+    "./spawn": "./lib/spawn.js"
+  },
+  "bin": {
+    "ninja": "bin/ninja"
+  },
+  "files": [
+    "index.js",
+    "bin",
+    "lib"
+  ],
+  "workspaces": [
+    "npm/*"
+  ],
+  "imports": {
+    "child_process": {
+      "bare": "bare-subprocess",
+      "default": "child_process"
+    },
+    "os": {
+      "bare": "bare-os",
+      "default": "os"
+    },
+    "path": {
+      "bare": "bare-path",
+      "default": "path"
+    }
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holepunchto/ninja-runtime.git"
+  },
+  "author": "Holepunch",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/holepunchto/ninja-runtime/issues"
+  },
+  "homepage": "https://github.com/holepunchto/ninja-runtime#readme",
+  "dependencies": {
+    "bare-os": "^3.0.1",
+    "bare-path": "^3.0.0",
+    "bare-subprocess": "^4.0.2"
+  },
+  "optionalDependencies": {
+    "ninja-runtime-darwin-universal": "1.12.1",
+    "ninja-runtime-linux-arm64": "1.12.1",
+    "ninja-runtime-linux-x64": "1.12.1",
+    "ninja-runtime-win32-arm64": "1.12.1",
+    "ninja-runtime-win32-x64": "1.12.1"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0"
+  }
+}
