@@ -56,11 +56,11 @@
     "bare-subprocess": "^5.0.0"
   },
   "optionalDependencies": {
-    "ninja-runtime-darwin-universal": "1.12.1",
-    "ninja-runtime-linux-arm64": "1.12.1",
-    "ninja-runtime-linux-x64": "1.12.1",
-    "ninja-runtime-win32-arm64": "1.12.1",
-    "ninja-runtime-win32-x64": "1.12.1"
+    "ninja-runtime-darwin-universal": "1.13.1",
+    "ninja-runtime-linux-arm64": "1.13.1",
+    "ninja-runtime-linux-x64": "1.13.1",
+    "ninja-runtime-win32-arm64": "1.13.1",
+    "ninja-runtime-win32-x64": "1.13.1"
   },
   "devDependencies": {
     "prettier": "^3.6.2",

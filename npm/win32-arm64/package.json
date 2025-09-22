@@ -1,6 +1,6 @@
 {
   "name": "ninja-runtime-win32-arm64",
-  "version": "1.12.1",
+  "version": "1.13.1",
   "description": "The Windows ARM 64-bit binaries for Ninja",
   "exports": {
     ".": "./index.js",
