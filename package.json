@@ -1,6 +1,6 @@
 {
   "name": "ninja-runtime",
-  "version": "1.12.2-1",
+  "version": "1.13.1",
   "description": "Prebuilt Ninja binaries for macOS, Linux, and Windows",
   "exports": {
     ".": "./index.js",
