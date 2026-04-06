@@ -37,7 +37,8 @@
     }
   },
   "scripts": {
-    "test": "prettier . --check"
+    "format": "prettier --write . && lunte --fix",
+    "lint": "prettier --check . && lunte"
   },
   "repository": {
     "type": "git",
@@ -56,14 +57,18 @@
     "bare-subprocess": "^5.0.0"
   },
   "optionalDependencies": {
-    "ninja-runtime-darwin-universal": "1.13.1",
+    "ninja-runtime-darwin-arm64": "1.13.1",
+    "ninja-runtime-darwin-x64": "1.13.1",
     "ninja-runtime-linux-arm64": "1.13.1",
     "ninja-runtime-linux-x64": "1.13.1",
     "ninja-runtime-win32-arm64": "1.13.1",
     "ninja-runtime-win32-x64": "1.13.1"
   },
   "devDependencies": {
+    "cmake-bare": "^1.7.7",
+    "cmake-fetch": "^1.4.9",
+    "lunte": "^1.6.0",
     "prettier": "^3.6.2",
-    "prettier-config-holepunch": "^1.0.0"
+    "prettier-config-holepunch": "^2.0.0"
   }
 }
