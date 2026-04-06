@@ -5,7 +5,7 @@ find_package(cmake-fetch REQUIRED PATHS node_modules/cmake-fetch)
 
 project(ninja_runtime C)
 
-fetch_package("github:ninja-build/ninja@1.13.1")
+fetch_package("github:ninja-build/ninja@1.13.2")
 
 add_custom_target(ninja_runtime ALL DEPENDS ninja)
 
