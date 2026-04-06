@@ -57,12 +57,12 @@
     "bare-subprocess": "^5.0.0"
   },
   "optionalDependencies": {
-    "ninja-runtime-darwin-arm64": "1.13.1",
-    "ninja-runtime-darwin-x64": "1.13.1",
-    "ninja-runtime-linux-arm64": "1.13.1",
-    "ninja-runtime-linux-x64": "1.13.1",
-    "ninja-runtime-win32-arm64": "1.13.1",
-    "ninja-runtime-win32-x64": "1.13.1"
+    "ninja-runtime-darwin-arm64": "1.13.2",
+    "ninja-runtime-darwin-x64": "1.13.2",
+    "ninja-runtime-linux-arm64": "1.13.2",
+    "ninja-runtime-linux-x64": "1.13.2",
+    "ninja-runtime-win32-arm64": "1.13.2",
+    "ninja-runtime-win32-x64": "1.13.2"
   },
   "devDependencies": {
     "cmake-bare": "^1.7.7",

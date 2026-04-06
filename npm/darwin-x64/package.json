@@ -1,6 +1,6 @@
 {
   "name": "ninja-runtime-darwin-x64",
-  "version": "1.13.1",
+  "version": "1.13.2",
   "description": "The macOS Intel 64-bit binary for Ninja",
   "exports": {
     ".": "./index.js",

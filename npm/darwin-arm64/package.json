@@ -1,6 +1,6 @@
 {
   "name": "ninja-runtime-darwin-arm64",
-  "version": "1.13.1",
+  "version": "1.13.2",
   "description": "The macOS ARM 64-bit binary for Ninja",
   "exports": {
     ".": "./index.js",
